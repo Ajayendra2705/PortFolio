@@ -1,0 +1,637 @@
+* {
+    font-family: 'Parisienne', cursive;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    margin: 0;
+}
+
+.navbar {
+    top: -100px;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(220, 241, 250);
+    display: flex;
+    z-index: 1;
+    margin-top: 1px;
+    opacity: 0;
+    transition: top 10s ease-in-out;
+    transition: opacity 0.7s ease-in-out; /* Smooth transition for the top property */
+}
+
+.navbar-visible {
+    top: 0;
+    opacity: 1;
+}
+#name_div {
+    padding: 0 0 0 6.5%;
+}
+
+#name_logo {
+    height: 80px;
+} 
+
+.home_tag_class {
+    margin-top: 9px;
+    height: 60px;
+    width: 95px;
+    margin-left: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+
+}
+
+.home_tag_class:hover {
+    border: 2px solid black;
+    background-color: aqua;
+    opacity: 100%;
+    border-radius: 10%;
+    align-items: center;
+}
+
+.education_tag_class {
+    margin-top: 9px;
+    height: 60px;
+    width: 135px;
+    margin-left: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.education_tag_class:hover {
+    border: 2px solid black;
+    background-color: aqua;
+    opacity: 100%;
+    border-radius: 10%;
+}
+
+.experience_tag_class {
+    margin-top: 9px;
+    height: 60px;
+    width: 160px;
+    margin-left: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.experience_tag_class:hover {
+    border: 2px solid black;
+    background-color: aqua;
+    opacity: 100%;
+    border-radius: 10%;
+}
+
+
+.projects_tag_class {
+    margin-top: 9px;
+    height: 60px;
+    width: 130px;
+    margin-left: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.projects_tag_class:hover {
+    border: 2px solid black;
+    background-color: aqua;
+    opacity: 100%;
+    border-radius: 10%;
+}
+
+.contactme_tag_class {
+    margin-top: 9px;
+    height: 60px;
+    width: 170px;
+    margin-left: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contactme_tag_class:hover {
+    border: 2px solid black;
+    background-color: aqua;
+    opacity: 100%;
+    border-radius: 10%;
+} 
+
+.image {
+    height: 600px;
+    display: flexbox;
+}
+
+#grad_image {
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 0px;
+    margin-bottom: 100px;
+}
+
+.image {
+    background-color: rgb(220, 241, 250);
+    display: flex;
+}
+
+
+#ajayendra_name_education {
+    margin-top: 150px;
+    margin-left: 220px;
+    margin-right: 100px;
+    font-size: 65px;
+}
+
+#some_text_education {
+    margin-left: 80px;
+    font-size: 30px;
+    color: rgb(40, 62, 62);
+}
+
+.left_side {
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-name: slideInFromLeft;
+}
+
+@keyframes slideInFromLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.right_side {
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-name: slideInFromRight;
+}
+
+@keyframes slideInFromRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.degrees {
+    height: 80px;
+    background-color: rgb(220, 241, 250);
+    font-size: 50px;
+    text-align: center;
+
+}
+
+#education_written {
+    font-size: 50px;
+}
+
+.iitkgp {
+    height: 400px;
+    background-color: rgb(220, 241, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iitkgp_area {
+    height: 300px;
+    width: 1100px;
+    border-radius: 30px;
+    border: 2px solid black;
+    display: flex;
+    padding: 5px;
+}
+
+#iit_image_image {
+    opacity: 0;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.iit_written_part {
+    opacity: 0;
+    height: 100px;
+    width: 880px;
+    background-color: rgb(13, 197, 244);
+    border-radius: 30px;
+}
+
+#iit_written_written {
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-right: 0px;
+    font-family: 'Parisienne', cursive;
+
+}
+
+#btech {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
+.iit_whateducation {
+    margin-top: 300px;
+    margin-left: 30px;
+    height: 100px;
+    width: 851px;
+    background-color: green;
+    border-radius: 30px;
+}
+
+.trial {
+    margin-top: 23px;
+    height: 160px;
+    width: 811px;
+    background-color: rgb(140, 210, 240);
+    opacity: 10;
+    border-radius: 30px;
+    padding: 20px 20px 20px 20px;
+
+
+}
+
+#iit_image_image.animate {
+    opacity: 1;
+    animation: slideInFromLeft 1s forwards;
+
+}
+
+.iit_written_part.animate {
+    opacity: 1;
+    animation: slideInFromRight 1s forwards;
+
+}
+
+
+.kv12 {
+    height: 400px;
+    background-color: rgb(220, 241, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kv12_area {
+    height: 300px;
+    width: 1100px;
+    border-radius: 30px;
+    border: 2px solid black;
+    display: flex;
+    padding: 5px;
+}
+
+.kv12_image {
+    width: 248.7px;
+}
+#kv12_image_image {
+    opacity: 0;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.kv12_written_part {
+    opacity: 0;
+    height: 100px;
+    width: 880px;
+    background-color: rgb(13, 197, 244);
+    border-radius: 30px;
+}
+
+#kv12_written_written {
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-right: 0px;
+    font-family: 'Parisienne', cursive;
+
+}
+
+#class12 {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
+.iit_whateducation {
+    margin-top: 300px;
+    margin-left: 30px;
+    height: 100px;
+    width: 851px;
+    background-color: green;
+    border-radius: 30px;
+}
+
+.trial {
+    margin-top: 23px;
+    height: 160px;
+    width: 811px;
+    background-color: rgb(140, 210, 240);
+    opacity: 10;
+    border-radius: 30px;
+    padding: 20px 20px 20px 20px;
+
+
+}
+
+#kv12_image_image.animate {
+    opacity: 1;
+    animation: slideInFromLeft 1s forwards;
+
+}
+
+.kv12_written_part.animate {
+    opacity: 1;
+    animation: slideInFromRight 1s forwards;
+
+}
+
+
+.kv10 {
+    height: 400px;
+    background-color: rgb(220, 241, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kv10_area {
+    height: 300px;
+    width: 1100px;
+    border-radius: 30px;
+    border: 2px solid black;
+    display: flex;
+    padding: 5px;
+}
+
+.kv10_image {
+    width: 248.7px;
+}
+#kv10_image_image {
+    opacity: 0;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.kv10_written_part {
+    opacity: 0;
+    height: 100px;
+    width: 880px;
+    background-color: rgb(13, 197, 244);
+    border-radius: 30px;
+}
+
+#kv10_written_written {
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-right: 0px;
+    font-family: 'Parisienne', cursive;
+
+}
+
+#class10 {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
+.iit_whateducation {
+    margin-top: 300px;
+    margin-left: 30px;
+    height: 100px;
+    width: 851px;
+    background-color: green;
+    border-radius: 30px;
+}
+
+.trial {
+    margin-top: 23px;
+    height: 160px;
+    width: 811px;
+    background-color: rgb(140, 210, 240);
+    opacity: 10;
+    border-radius: 30px;
+    padding: 20px 20px 20px 20px;
+
+
+}
+
+#kv10_image_image.animate {
+    opacity: 1;
+    animation: slideInFromLeft 1s forwards;
+
+}
+
+.kv10_written_part.animate {
+    opacity: 1;
+    animation: slideInFromRight 1s forwards;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(220, 241, 250);
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.certificate {
+    height: 80px;
+    background-color: rgb(220, 241, 250);
+    text-align: center;
+
+}
+
+#Certificate_written {
+    font-size: 50px;
+}
+
+.container {
+    background-color: rgb(220, 241, 250);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    height: 250px;
+    width: 300px;
+    background-color: red;
+    margin-right: 150px;
+    border-radius: 20px;
+}
+
+.box2 {
+    height: 250px;
+    width: 300px;
+    background-color: yellow;
+    border-radius: 20px;
+}
+
+.box3 {
+    height: 250px;
+    width: 300px;
+    background-color: blue;
+    margin-left: 150px;
+    border-radius: 20px;
+}
+
+.upperbox1 {
+    height: 125px;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.lowerbox1 {
+    height: 115px;
+    background-color: rgb(78, 219, 241);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-top: 10px;
+}
+
+#fec {
+    height: 125px;
+}
+
+#fec_text {
+    margin-left: 43px;
+    font-size: 20px;
+}
+
+#next_text {
+    margin-left: 90px;
+    font-size: 20px;
+}
+
+#text_final {
+    font-size: 19px;
+    margin-left: 20px;
+    margin-top: 8px;
+    color: rgb(8, 8, 129);
+}
+
+.upperbox1:hover {
+    border: 2px solid black;
+    opacity: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    align-items: center;
+}
+
+.upperbox1, .upperbox {
+    position: relative; /* Ensure the overlay is positioned correctly */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 40px;
+    cursor: pointer; /* Change cursor to pointer */
+
+}
+
+.upperbox1:hover .overlay, .upperbox:hover .overlay {
+    opacity: 1;
+}
+
+.upperbox2 {
+    height: 125px;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.lowerbox2 {
+    height: 115px;
+    background-color: rgb(78, 219, 241);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-top: 10px;
+}
+
+#ppgs {
+    height: 100px;
+}
+
+#ppgs_text {
+    font-size: 20px;
+    text-align: center;
+}
+
+#ppgs_next_text {
+    margin-left: 90px;
+    font-size: 20px;
+}
+
+#text_final_ppgs {
+    font-size: 19px;
+    margin-top: 8px;
+    color: rgb(8, 8, 129);
+    text-align: center;
+}
+
+.upperbox2:hover {
+    border: 2px solid black;
+    opacity: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    align-items: center;
+}
+
+.upperbox2, .upperbox {
+    position: relative; /* Ensure the overlay is positioned correctly */
+}
+
+.upperbox2:hover .overlay, .upperbox:hover .overlay {
+    opacity: 1;
+}
